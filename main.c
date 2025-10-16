@@ -7,7 +7,7 @@ int main() {
     printf("Digite seu salario bruto: ");
     scanf("%f", &salario);
 
-    // Calcular INSS (tabela progressiva simplificada)
+    // Calcular INSS (tabela simplificada)
     if (salario <= 1320)
         inss = salario * 0.075;
     else if (salario <= 2571.29)
